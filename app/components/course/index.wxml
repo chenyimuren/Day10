@@ -1,0 +1,6 @@
+<view class="course">
+  <view class='course-item' wx:for="{{items}}" wx:key="{{index}}" >
+      <image src='{{item.image}}' mode='widthFix' ></image>
+      <view class='title'>{{item.title}}</view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+.course{
+  padding: 36rpx 0 14rpx;
+  background-color: #fff;
+}
+.course::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+.course-item{
+   float: left;
+   width: 50%;
+   text-align: center;
+}
+.course-item image{
+  width: 360rpx;
+  height: 180rpx;
+}
+.course-item .title{
+    font-size: 28rpx;
+    color: #404040;
+    height: 64rpx;
+    line-height: 64rpx;
+    float: left;
+    margin-left: 14rpx;
+    
+}
